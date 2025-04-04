@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: gold;
+  text-align: center;
+}
+
+.sombra {
+  text-shadow: 2px 2px 2px black;
+}
+h1 {
+  color: red;
+}
+
+.titulo h1 {
+  margin-top: 50px;
+  color: #333;
+}
+
+.vingadores1 {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+.vingadores2 {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+img {
+  border-radius: 20%;
+  margin: 1rem;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.linha {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.card {
+  width: 350px;
+  height: 350px;
+  color: red;
+  border-color: red;
+}
+
+img {
+  transition: transform 0.2s ease;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
